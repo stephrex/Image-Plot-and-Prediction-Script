@@ -37,4 +37,4 @@ for i, image in enumerate(images):
     cv2.imwrite(pred_path, cvImg)
 
 # RUN THIS SCRIPT LIKE THIS
-# python predict.py --model C:/Users/User/Documents/Machine/Plants-Classification-Project/src/Crop_Disease_Detection_Model/Outputs/models/CDD/Model_1 --test_data C:/Users/User/Documents/Machine/Plants-Classification-Project/src/Crop_Disease_Detection_Model/Data/PlantDiseasesDataset/Apple/valid --predictions C:/Users/User/Documents/Machine/Plants-Classification-Project/src/Crop_Disease_Detection_Model/Outputs/predictions/
+# python predict.py --model path_to_saved_model_directory --test_data path_to_test_data_directory --predictions path_to_save_the_images
